@@ -1,0 +1,13 @@
+/* Footer manga */
+.footer-manga {
+  width: 100%;
+  background: linear-gradient(90deg, #ffb347 0%, #ff4b7a 100%);
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-radius: 12px;
+  margin-top: 2rem;
+  font-family: 'Nunito', cursive;
+  font-size: 1.1rem;
+  box-shadow: 0 -2px 8px #ff4b7a33;
+}

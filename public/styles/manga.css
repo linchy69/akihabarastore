@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #ffe3ee 100%);
+  font-family: 'Nunito', 'Comic Sans MS', cursive, sans-serif;
+  color: #222;
+}
+h1, h2 {
+  font-family: 'Bangers', 'Nunito', cursive;
+  color: #ff4b7a;
+  text-shadow: 2px 2px 8px #fff0f6;
+}
+.catalogo-container {
+  padding: 2rem;
+}
+.product-card {
+  border: 2px solid #ff4b7a;
+  border-radius: 16px;
+  background: #fff0f6;
+  box-shadow: 0 4px 16px #ff4b7a33;
+  width: 320px;
+  margin-bottom: 2rem;
+  transition: transform 0.2s;
+}
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px #ff4b7a66;
+}
+.product-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #ff4b7a;
+}
+.product-title {
+  font-size: 1.5rem;
+  color: #ff4b7a;
+  margin-top: 1rem;
+}
+.product-desc {
+  font-size: 1rem;
+  color: #222;
+  margin: 0.5rem 0;
+}
+.product-price {
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: bold;
+}
+.buy-btn {
+  background: linear-gradient(90deg, #ff4b7a 0%, #ffb347 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: 'Nunito', cursive;
+  box-shadow: 0 2px 8px #ff4b7a33;
+  transition: background 0.2s;
+}
+.buy-btn:hover {
+  background: linear-gradient(90deg, #ffb347 0%, #ff4b7a 100%);
+}

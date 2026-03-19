@@ -1,0 +1,23 @@
+[
+  {
+    "Nombre": "Bolso Manga",
+    "Precio": 25,
+    "DescripciÃ³n": "Bolso artesanal de manga",
+    "ImÃ¡genes": "bolso1.jpg,bolso1b.jpg",
+    "CategorÃ­a": "Bolso"
+  },
+  {
+    "Nombre": "Cartera Anime",
+    "Precio": 15,
+    "DescripciÃ³n": "Cartera inspirada en anime",
+    "ImÃ¡genes": "cartera1.jpg,cartera2.jpg",
+    "CategorÃ­a": "Cartera"
+  },
+  {
+    "Nombre": "Figura 3D",
+    "Precio": 40,
+    "DescripciÃ³n": "Figura 3D de personaje manga",
+    "ImÃ¡genes": "figura1.jpg,figura1b.jpg",
+    "CategorÃ­a": "Figura"
+  }
+]

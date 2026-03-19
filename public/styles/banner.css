@@ -1,0 +1,30 @@
+/* Banner y logo manga con animaciones */
+.banner-manga {
+  width: 100%;
+  height: 220px;
+  background: url('/banner-manga.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: bannerFade 2s ease-in;
+  box-shadow: 0 8px 32px #ff4b7a66;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+.logo-manga {
+  width: 120px;
+  height: 120px;
+  background: url('/logo-manga.png') center/contain no-repeat;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px #ff4b7a33;
+  animation: logoBounce 1.5s infinite alternate;
+  margin-right: 2rem;
+}
+@keyframes bannerFade {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes logoBounce {
+  from { transform: scale(1); }
+  to { transform: scale(1.15); }
+}
